@@ -6,7 +6,7 @@ import About from "./About";
 function App() {
   return (
       <div>
-          <Route path="/" component={Home}/>
+          <Route path="/" exact={true} component={Home}/>
           <Route path="/about" component={About}/>
       </div>
   );
